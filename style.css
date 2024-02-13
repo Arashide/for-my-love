@@ -21,11 +21,19 @@ body {
 }
 
 .ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   display: block;
   width: 320px;
   height: 320px;
 }
 .open .ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   animation: open 4s;
   transform: scale(10);
 }
@@ -33,6 +41,7 @@ body {
   position: relative;
   top: 50%;
   left: 50%;
+  margin-left: -95px;
   margin-top: -73px;
   z-index: 4;
   font-size: 50px;
@@ -148,4 +157,18 @@ body {
   to {
     transform: scale(10);
   }
+}
+
+/* Additional CSS to center the .title class in the viewport */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  /* Ensure it takes full width for horizontal centering in case of flex adjustments */
+  width: 100%;
 }
