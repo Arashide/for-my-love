@@ -6,8 +6,6 @@ $(document).ready(function () {
     $(".close").click(function () {
       $(".container").removeClass("open");
     });
-    var music = document.getElementById("myMusic");
-    music.play();
   });
 
   var songs = [
