@@ -3,6 +3,7 @@ body {
   background: url(https://subtlepatterns.com/patterns/noise_lines.png);
   font-family: "Pacifico", cursive;
   overflow: auto;
+  color: #fff;
 }
 
 #music-player {
