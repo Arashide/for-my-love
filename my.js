@@ -11,8 +11,8 @@ $(document).ready(function () {
   });
 
   var songs = [
-    {title: "La Vie en Rose (Tracy's Version)", file: "path/to/song1.mp3"},
-    {title: "Nothing - Bruno Major", file: "path/to/song2.mp3"},
+    {title: "La Vie en Rose (Tracy's Version)", file: "lavieenrose.mp3"},
+    {title: "Nothing - Bruno Major", file: "bruno.mp3"},
     // Add more songs as needed
 ];
 var currentSongIndex = 0;

@@ -8,10 +8,12 @@ body {
 
 #music-player {
   text-align: center;
+  margin: auto;
   margin-top: 20px;
 }
 
 #music-player button {
+  width: 50%;
   margin: 5px;
   padding: 10px;
 }
