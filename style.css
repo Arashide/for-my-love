@@ -45,7 +45,7 @@ body {
 }
 .open .ico {
   animation: open 4s;
-  transform: scale(20);
+  transform: scale(40);
 }
 .ico .title {
   position: absolute;
@@ -167,7 +167,7 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(20);
+    transform: scale(40);
   }
 }
 
