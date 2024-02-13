@@ -11,6 +11,14 @@ $(document).ready(function () {
   var songs = [
     {title: "La Vie en Rose (Tracy's Version)", file: "lavieenrose.mp3"},
     {title: "Nothing - Bruno Major", file: "bruno.mp3"},
+    {title: "P.S I LOVE YOU - Paul Partohap)", file: "psiloveyou.mp3"},
+    {title: "Moments - Micah Edwards", file: "moments.mp3"},
+    {title: "Infrunami - Steve Lacy", file: "infrunami.mp3"},
+    {title: "For The First Time - Mac Demarco", file: "For The First Time.mp3"},
+    {title: "Best Part - Daniel Ceasar)", file: "bestpart.mp3"},
+    {title: "Apocalypse - Cigarettes After Sex", file: "apocalypse.mp3"},
+    {title: "Get You - Daniel Caesar", file: "getyou.mp3"},
+    {title: "Pink + White - Frank Ocean", file: "pinkwhite.mp3"}
     // Add more songs as needed
 ];
 var currentSongIndex = 0;
