@@ -47,7 +47,7 @@ body {
   transform: scale(10);
 }
 .ico .title {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin-left: -95px;
@@ -68,7 +68,7 @@ body {
 .ico:after,
 .ico2:before,
 .ico2:after {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -115,7 +115,7 @@ body {
   animation: show 5s;
 }
 .endtext .close {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
