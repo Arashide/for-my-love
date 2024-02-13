@@ -26,6 +26,7 @@ body {
   background: rgb(103, 58, 183);
   background: rgba(103, 58, 183, 0.7);
   position: absolute;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
