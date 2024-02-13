@@ -2,13 +2,13 @@
 body {
   background: url(https://subtlepatterns.com/patterns/noise_lines.png);
   font-family: "Pacifico", cursive;
-  overflow: absolute;
+  overflow: hidden;
   color: #fff;
 }
 .bgoverlay {
   background: rgb(103, 58, 183);
   background: rgba(103, 58, 183, 0.7);
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -17,7 +17,7 @@ body {
 .container {
   position: relative;
   margin: 120px auto 0 auto;
-  width: 420px;
+  width: 320px;
 }
 
 .ico {
@@ -30,9 +30,10 @@ body {
   transform: scale(10);
 }
 .ico .title {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
+  margin-left: -95px;
   margin-top: -73px;
   z-index: 4;
   font-size: 50px;
@@ -50,7 +51,7 @@ body {
 .ico:after,
 .ico2:before,
 .ico2:after {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -87,7 +88,7 @@ body {
 
 .endtext {
   opacity: 0;
-  position: relative;
+  position: absolute;
   top: -100px;
   width: 100%;
 }
@@ -97,7 +98,7 @@ body {
   animation: show 5s;
 }
 .endtext .close {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
@@ -147,5 +148,16 @@ body {
   }
   to {
     transform: scale(10);
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
   }
 }
