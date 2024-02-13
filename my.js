@@ -18,7 +18,7 @@ $(document).ready(function () {
     {title: "Best Part - Daniel Ceasar)", file: "bestpart.mp3"},
     {title: "Apocalypse - Cigarettes After Sex", file: "apocalypse.mp3"},
     {title: "Get You - Daniel Caesar", file: "getyou.mp3"},
-    {title: "Pink + White - Frank Ocean", file: "pinkwhite.mp3"}
+    {title: "Pink + White - Frank Ocean", file: "pinkwhite.mp3"},
     // Add more songs as needed
 ];
 var currentSongIndex = 0;
